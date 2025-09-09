@@ -248,7 +248,7 @@ const VideoPage: React.FC = () => {
                     id="videoPrompt"
                     value={prompt}
                     onChange={(e) => setPrompt(e.target.value)}
-                    placeholder="e.g., A cinematic, 15-second video of my hand-carved wooden bowl. Show it on a rustic dining table with sunlight streaming in. The mood should be warm and inviting."
+                    placeholder="e.g., A cinematic, 8-second video of my hand-carved wooden bowl. Show it on a rustic dining table with sunlight streaming in. The mood should be warm and inviting."
                     className="w-full p-3 border border-stone-300 rounded-md focus:ring-2 focus:ring-amber-500 focus:border-amber-500 transition duration-200 bg-white text-black"
                     rows={5}
                     required
