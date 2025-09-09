@@ -1,0 +1,5 @@
+{
+  "name": "Artisan Storyteller",
+  "description": "An application for artisans to upload a product image and description to generate a captivating story using Gemini, helping them connect with a larger audience.",
+  "requestFramePermissions": []
+}

@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Artisan Storyteller</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        background-color: #FDF8F2; /* A warm, artisan-style off-white */
+        
+        /* 
+          CUSTOM BACKGROUND IMAGE PLACEHOLDER:
+          To use your own background image, replace the URL in the line below.
+          For example: url('https://your-image-url.com/background.jpg')
+          Or for a local file in a project `assets` folder: url('/assets/my-background.png')
+        */
+        //background-image: url('https://i.pinimg.com/736x/5f/57/15/5f5715b2e794d0ee75c2aedc9743b6ac.jpg');
+        background-size: cover; 
+        background-position: center; 
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.16.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
